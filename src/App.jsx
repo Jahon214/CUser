@@ -3,7 +3,7 @@ import Header from './components/topbar/Header'
 import Footer from './components/footer/Footer'
 import { useState } from 'react'
 import UsersList from './components/usersList/UsersList'
-import ModalFormList from './components/modal/modalFormList'
+import ModalFormList from './components/modal/ModalFormList'
 
 const App = () => {
   const [showModal, setShowModal] = useState(false)
